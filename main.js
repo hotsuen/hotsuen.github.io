@@ -35,6 +35,6 @@ function number_word(num){
 
 function convertNumber(){
     let num = document.getElementById("numberInput").value;
-    let result = numberToWords(parseInt(num));
+    let result = number_word(parseInt(num));
     document.getElementById("result").textContent = result;
 }
